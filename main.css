@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+/* .body {background-color: white;} */
+
+/* General formatting */
+.centre {text-align: center;}
+.bluebackground {background-color:#c2bbf0;}
+
+/* Logo in header */
+.logo { 
+  width: 150px;
+  height:auto;
+  margin: 0;
+  padding:10px;
+  border:0;
+}
+
+/* Fonts */
+h1, h3 {
+
+        font-family: 'Work Sans', sans-serif; 
+        font-weight: 400; 
+        color: #210b2c; 
+        margin: 10px; 
+        padding: 0px; 
+        box-sizing:border-box;
+        
+    
+    }
+
+h4 {
+    
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 400; 
+    color: #210b2c; 
+    margin: 10px; 
+    padding: 0px; 
+    box-sizing:border-box;
+ 
+
+}
+
+p {
+    font-family:'Work Sans', sans-serif; 
+    font-weight: 300; 
+    font-size: 110%; 
+    color: rgb(85, 40, 111, 1);
+    margin:10px; 
+    padding: 0px; 
+    box-sizing:border-box; 
+   } 
+
+
+/* Navigation menu */
+
+.nav {
+    
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 300;
+    font-size: 25px; ; 
+    background-color: #c2bbf0;
+    text-align: right; 
+}
+
+/* Header */
+.header {
+    min-height: 100%;
+    min-width: 100%;
+    font-family: 'Work sans', sans-serif; 
+    font-weight: 500;
+    font-size: 50px;  
+    background-color:#c2bbf0; 
+    text-align: left; 
+    box-sizing: border-box; 
+    padding: 10px;
+    margin: 0px;
+ 
+}
+
+/* Images */
+/* Index image */
+.indexbooks {
+  height:50%;
+  width:50%;
+  text-align: center;
+
+}
+
+/* Contact page image*/
+.paragraph {
+  opacity:1;
+  font-family:'Work Sans', sans-serif; 
+  font-weight: 300; 
+  font-size: 110%; 
+  color: rgb(85, 40, 111, 1);
+  margin:10px; 
+  padding: 0px; 
+  box-sizing:border-box; 
+  
+
+}
+
+.body {
+  background-image: url('images/desk1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  padding: 0px;
+  border: 0px;
+  margin: 0;
+  /* opacity:0.3 */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;  */
+}
+
+
+/* Resources page image */
+.resourcesbody {
+  background-image: url('images/calendar.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  width:100%;
+
+}
+
+/* Flex items  */
+
+.container {
+  display: flex;
+  min-width: 100%;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  box-sizing: border-box;
+}
+.container2
+{ min-width: 100%;
+  min-height: 100%;
+  box-sizing: border-box}
+
+.containerrow {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right:auto;margin-left:auto}
+
+/* Create a class.box for the box style */
+.box {
+  padding:1px;
+  width: 100vh;
+}
+
+.box2 {
+  padding: 10px;
+  width: 17.5%px;
+
+}
+.box3 {
+  padding:10px;
+  width:100%;
+}
+
+/* social media symbols*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+    background: #ea4c89;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
