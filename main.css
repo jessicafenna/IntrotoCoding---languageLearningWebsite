@@ -102,7 +102,8 @@ p {
 }
 
 body { margin: 0;
-padding:0}
+padding:0;
+height:100%}
 
 .body {
   background-image: url('images/desk1.jpg');
@@ -113,13 +114,7 @@ padding:0}
   padding: 0px;
   border: 0px;
   margin: 0;
-  /* opacity:0.3 */
-  /* filter: blur(8px);
-  -webkit-filter: blur(8px);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;  */
+ 
 }
 
 
